@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Manager" />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign UP" />
+
+    <EditText
+        android:id="@+id/email_for_signUp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="write your email here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/password_for_signUp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="write your password here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/goToLoginScreen"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New user? Sign Up "/>
+
+</LinearLayout>

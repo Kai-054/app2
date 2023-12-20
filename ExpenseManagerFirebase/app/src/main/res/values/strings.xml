@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExpenseManagerFirebase</string>
+    <string name="already_have_an_account_sign_up">already have an account? Sign UP</string>
+</resources>
